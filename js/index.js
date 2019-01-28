@@ -126,3 +126,19 @@ h4BottomContent3.textContent = siteContent["main-content"]["vision-h4"];
 
 let pBottomContent3 = bottomTextContent3.children[1];
 pBottomContent3.textContent = siteContent["main-content"]["vision-content"];
+
+// Contact Section
+
+let contactSection = document.querySelector('.contact');
+
+let h4Contact = contactSection.children[0];
+h4Contact.textContent = siteContent["contact"]["contact-h4"];
+
+let pContact1 = contactSection.children[1];
+pContact1.textContent = siteContent["contact"]["address"];
+
+let pContact2 = contactSection.children[2];
+pContact2.textContent = siteContent["contact"]["phone"];
+
+let pContact3 = contactSection.children[3];
+pContact3.textContent = siteContent["contact"]["email"];
