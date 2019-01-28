@@ -47,21 +47,27 @@ let navbarElements = document.querySelectorAll('a');
 
 let navbarElement1 = navbarElements[0];
 navbarElement1.textContent = siteContent.nav["nav-item-1"];
+navbarElement1.style.color = 'green';
 
 let navbarElement2 = navbarElements[1];
 navbarElement2.textContent = siteContent.nav["nav-item-2"];
+navbarElement2.style.color = 'green';
 
 let navbarElement3 = navbarElements[2];
 navbarElement3.textContent = siteContent.nav["nav-item-3"];
+navbarElement3.style.color = 'green';
 
 let navbarElement4 = navbarElements[3];
 navbarElement4.textContent = siteContent.nav["nav-item-4"];
+navbarElement4.style.color = 'green';
 
 let navbarElement5 = navbarElements[4];
 navbarElement5.textContent = siteContent.nav["nav-item-5"];
+navbarElement5.style.color = 'green';
 
 let navbarElement6 = navbarElements[5];
 navbarElement6.textContent = siteContent.nav["nav-item-6"];
+navbarElement6.style.color = 'green';
 
 // CTA
 let h1 = document.querySelector('h1');
