@@ -41,7 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-//Update Navbar on Index.html by only using the siteContent JSON object in index.html
+// Update Navbar on Index.html by only using the siteContent JSON object in index.html
 let navbar = document.getElementsByTagName('nav');
 let navbarElements = document.querySelectorAll('a');
 
@@ -62,3 +62,13 @@ navbarElement5.textContent = siteContent.nav["nav-item-5"];
 
 let navbarElement6 = navbarElements[5];
 navbarElement6.textContent = siteContent.nav["nav-item-6"];
+
+// CTA
+let h1 = document.querySelector('h1');
+h1.textContent = siteContent.cta.h1;
+
+let button = document.querySelector('button');
+button.textContent = siteContent.cta.button;
+
+let ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute('src', siteContent["cta"]["img-src"]);
