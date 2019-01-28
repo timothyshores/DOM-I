@@ -142,3 +142,8 @@ pContact2.textContent = siteContent["contact"]["phone"];
 
 let pContact3 = contactSection.children[3];
 pContact3.textContent = siteContent["contact"]["email"];
+
+// Footer Section
+let footerSection = document.getElementsByTagName('footer')[0];
+let pFooter = footerSection.children[0];
+pFooter.textContent = siteContent["footer"]["copyright"];
