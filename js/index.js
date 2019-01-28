@@ -92,5 +92,37 @@ h4TopContent2.textContent = siteContent["main-content"]["about-h4"];
 let pTopContent2 = topTextContent2.children[1];
 pTopContent2.textContent = siteContent["main-content"]["about-content"];
 
+// Main Content - Middle Image
+
 let middleImage = document.getElementById('middle-img');
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+// Main Content - Bottom Content
+
+// Create variable called bottom-content and assign it to div class="bottom-content"
+
+let bottomContent = document.querySelector('.bottom-content');
+
+let bottomTextContent1 = bottomContent.children[0];
+
+let h4BottomContent1 = bottomTextContent1.children[0];
+h4BottomContent1.textContent = siteContent["main-content"]["services-h4"];
+
+let pBottomContent1 = bottomTextContent1.children[1];
+pBottomContent1.textContent = siteContent["main-content"]["services-content"];
+
+let bottomTextContent2 = bottomContent.children[1];
+
+let h4BottomContent2 = bottomTextContent2.children[0];
+h4BottomContent2.textContent = siteContent["main-content"]["product-h4"];
+
+let pBottomContent2 = bottomTextContent2.children[1];
+pBottomContent2.textContent = siteContent["main-content"]["product-content"];
+
+let bottomTextContent3 = bottomContent.children[2];
+
+let h4BottomContent3 = bottomTextContent3.children[0];
+h4BottomContent3.textContent = siteContent["main-content"]["vision-h4"];
+
+let pBottomContent3 = bottomTextContent3.children[1];
+pBottomContent3.textContent = siteContent["main-content"]["vision-content"];
