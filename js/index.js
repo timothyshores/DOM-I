@@ -72,3 +72,25 @@ button.textContent = siteContent.cta.button;
 
 let ctaImage = document.getElementById("cta-img");
 ctaImage.setAttribute('src', siteContent["cta"]["img-src"]);
+
+// Main Content - Top Content
+
+let topContent = document.querySelectorAll('.top-content')[0];
+let topTextContent1 = topContent.children[0];
+
+let h4TopContent1 = topTextContent1.children[0];
+h4TopContent1.textContent = siteContent["main-content"]["features-h4"];
+
+let pTopContent1 = topTextContent1.children[1];
+pTopContent1.textContent = siteContent["main-content"]["features-content"];
+
+let topTextContent2 = topContent.children[1];
+
+let h4TopContent2 = topTextContent2.children[0];
+h4TopContent2.textContent = siteContent["main-content"]["about-h4"];
+
+let pTopContent2 = topTextContent2.children[1];
+pTopContent2.textContent = siteContent["main-content"]["about-content"];
+
+let middleImage = document.getElementById('middle-img');
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
