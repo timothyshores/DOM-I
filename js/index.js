@@ -69,6 +69,16 @@ let navbarElement6 = navbarElements[5];
 navbarElement6.textContent = siteContent.nav["nav-item-6"];
 navbarElement6.style.color = 'green';
 
+let navbarElement7 = document.createElement("a");
+navbarElement7.textContent = "Blog";
+navbarElement7.style.color = 'green';
+navbar[0].appendChild(navbarElement7);
+
+let navbarElement0 = document.createElement("a");
+navbarElement0.textContent = "Home";
+navbarElement0.style.color = 'green';
+navbar[0].prepend(navbarElement0);
+
 // CTA
 let h1 = document.querySelector('h1');
 h1.textContent = siteContent.cta.h1;
